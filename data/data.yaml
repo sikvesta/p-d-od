@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['D00', 'D10', 'D20', 'D40']
+
+roboflow:
+  workspace: ws1-vcmbp
+  project: us-bgpo0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ws1-vcmbp/us-bgpo0/dataset/1
